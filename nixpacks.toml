@@ -7,5 +7,5 @@ cmds = ["npm ci --include=dev"]
 [phases.build]
 cmds = ["npm run build"]
 
-[staticAssets]
-"dist" = "/"
+[start]
+cmd = "npm run start"

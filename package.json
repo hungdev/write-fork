@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "sh scripts/dev.sh",
     "build": "sh scripts/build.sh",
-    "mac:build": "sh scripts/mac/build.sh"
+    "mac:build": "sh scripts/mac/build.sh",
+    "start": "serve -s dist -l tcp://0.0.0.0:${PORT:-3000}"
   },
   "devDependencies": {
     "@types/react": "18.0.18",
@@ -44,6 +45,7 @@
     "remark-gfm": "3.0.1",
     "remark-parse": "10.0.1",
     "remark-rehype": "10.1.0",
+    "serve": "14.2.6",
     "tinykeys": "1.4.0",
     "unified": "10.1.2"
   }
