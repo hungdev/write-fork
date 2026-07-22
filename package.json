@@ -19,7 +19,7 @@
     "typescript-plugin-css-modules": "3.4.0"
   },
   "dependencies": {
-    "@parcel/transformer-sass": "2.7.0",
+    "@parcel/transformer-sass": "2.16.4",
     "@primer/octicons-react": "17.5.0",
     "@radix-ui/react-alert-dialog": "1.0.0",
     "@radix-ui/react-dropdown-menu": "1.0.0",
@@ -34,7 +34,7 @@
     "@rose-pine/palette": "3.0.1",
     "monaco-editor": "0.31.0",
     "monaco-vim": "0.3.4",
-    "parcel": "2.7.0",
+    "parcel": "2.16.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rehype-dom-stringify": "3.0.1",
